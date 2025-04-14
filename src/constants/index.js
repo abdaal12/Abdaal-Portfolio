@@ -9,8 +9,8 @@ import {
   menu,
   close,
   css,
-  gearXpert,
-  project2,
+  Social,
+  bakery,
   project3,
   mysql,
   express,
@@ -171,7 +171,7 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Huzaif proved me wrong.",
+      "I thought it was impossible to make a website as beautiful as our product, but ALi proved me wrong.",
     name: "MD Mustaqeem",
     designation: "Ecommerce",
     company: "QuickMart",
@@ -179,7 +179,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Huzaif does.",
+      "I've never met a web developer who truly cares about their clients' success like Abdaal does.",
     name: "Abdul Raheman",
     designation: "Ecommerce Business",
     company: "justbuyz",
@@ -187,7 +187,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "After Huzaif optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      "After Abdaal optimized our website, our traffic increased by 50%. We can't thank them enough!",
     name: "James Wang",
     designation: "CTO",
     company: "456 Enterprises",
@@ -197,16 +197,16 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Tekisky Mart",
+    name: "Ecommerce Website",
     description:
-      "Tekisky Mart is a web-based platform that allows users to search, explore, and purchase a wide range of products from various providers, offering a seamless and efficient shopping experience.",
+      "An Ecommerce Project done using with best practices of React,Node,Express and Mongodb,is a web-based platform that allows users to search, explore, and purchase a wide range of products from various providers, offering a seamless and efficient shopping experience.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Bootstrap",
         color: "white-text-gradient",
       },
       {
@@ -219,13 +219,13 @@ const projects = [
       },
  
     ],
-    image: project2,
+    image: project3,
     source_code_link: "https://github.com/",
   },
   {
-    name: "GearXpert",
+    name: "US Confectionery",
     description:
-      "GearXpert is your ultimate destination for premium auto parts and accessories, Whether you're an automobile enthusiast or a professional, find everything you need to upgrade, repair.",
+      "Confectionery Website using basic tech-stack of HTML,CSS,and Javascript,React",
     tags: [
       {
         name: "react",
@@ -240,32 +240,32 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: gearXpert,
+    image: bakery,
     source_code_link: "https://github.com/",
   },
   {
-    name: "GoGroove-Ecommerce",
+    name: "Social Media Profile Analyzer",
     description:
-      "Go-Groove is your ultimate destination for premium products across various categories. Whether you're a savvy shopper or a professional, enhance, and simplify your lifestyle—all in one place!",
+      "An AI based project using Python,which helps to analyze social profiles for bussiness use and customer understanding",
     tags: [
       {
-        name: "react",
+        name: "Python",
         color: "blue-text-gradient",
       },
       {
-        name: "express",
+        name: "AI",
         color: "white-text-gradient",
       },
       {
-        name: "node",
+        name: "Gemini AI",
         color: "green-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Google",
         color: "green-text-gradient",
       },
     ],
-    image: project3,
+    image: Social,
     source_code_link: "https://github.com/",
   },
 ];
